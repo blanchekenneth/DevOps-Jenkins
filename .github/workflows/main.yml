@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Trigger Jenkins job
         run: |
-          curl -X POST https://jenkins-geek.devops.de/job/deploy-blanc-site/build?token=mytoken
+          curl -X POST http://blanc.geek-devops.de:8080/job/deploy-blanc-site/build?token=mytoken
